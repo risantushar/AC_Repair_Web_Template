@@ -1,0 +1,245 @@
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+::-webkit-input-placeholder { / Chrome/Opera/Safari /
+  color: #000 !important;
+}
+::-moz-placeholder { / Firefox 19+ /
+  color: #000 !important;
+}
+::-ms-input-placeholder { / IE 10+ /
+  color: #000 !important;
+}
+::-moz-placeholder { / Firefox 18- /
+  color: #000 !important;
+}
+
+
+/* Jquery ui select css */
+.ui-state-default {
+    width: 100% !important;
+}
+.ui-selectmenu-open .ui-widget-content {
+    border: 1px solid #00a5ea !important;
+    background: #ffffff !important;
+    color: #222222 !important;
+    border-radius: 0 !important;
+}
+/* Jquery ui select hover bg css */
+.ui-selectmenu-open .ui-widget-content .ui-state-focus {
+    border: 1px solid #00a5ea !important;
+    background: #00a5ea !important;
+    font-weight: normal !important;
+    color: #272727 !important;
+    font-size: 13px !important;
+}
+/* Jquery ui select hover some change css */
+.ui-selectmenu-open .ui-menu .ui-menu-item {
+    border: 1px solid transparent !important;
+    position: relative !important;
+    margin: 0;
+    padding: 5px 15px !important;
+    cursor: pointer !important;
+    font-size: 13px !important;
+    text-transform: none !important;
+}
+.ui-selectmenu-menu .ui-menu {
+    padding-bottom: 0px !important;
+}
+
+
+/*** 
+=============================================
+    Appoinment Area style
+=============================================
+***/
+/* Main field css css */
+.appoinment-area .appoinment .appoinment-form .ui-selectmenu-button {
+    background: rgba(255, 255, 255, 0.99) none repeat scroll 0 0;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: 1px solid transparent;
+    color: #949494;
+    font-size: 14px;
+    text-transform: capitalize;
+    height: 50px !important;
+    position: relative;
+}
+.appoinment-area .appoinment .appoinment-form .ui-selectmenu-button:focus{
+    outline: none;
+}
+.appoinment-area .appoinment .appoinment-form .ui-selectmenu-button span.ui-selectmenu-text {
+    display: block;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: left;
+    padding: 15px 15px 16px;
+}
+/* arrow button css */
+.appoinment-area .appoinment .appoinment-form .ui-selectmenu-button span.ui-icon {
+    display: block;
+    float: right;
+    height: 50px;
+    position: absolute;
+    text-indent: 0;
+    top: 7px;
+    width: 45px;
+    right: 0;
+    bottom: 0;
+    background-image: none;
+}
+.appoinment-area .appoinment .appoinment-form .ui-selectmenu-button span.ui-icon::before {
+    color: #cbd5dc;
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 20px;
+    overflow: visible;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+
+
+
+
+#contact-form input[type="text"].error{
+  border-color: red;
+}
+#contact-form input[type="email"].error{
+  border-color: red;
+}
+#contact-form select.error {
+  border-color: red;
+}
+#contact-form textarea.error{
+  border-color: red;
+}
+#contact-form label.error {
+  display: none !important;
+}
+
+
+#add-comment-form input[type="text"].error{
+  border-color: red;    
+}
+#add-comment-form input[type="email"].error{
+  border-color: red;    
+}
+#add-comment-form select.error {
+  border-color: red;
+}
+#add-comment-form textarea.error{
+  border-color: red;    
+}
+#add-comment-form label.error {
+  display: none !important;
+}
+
+
+#appoinment-form input[type="text"].error{
+  border-color: red;    
+}
+#appoinment-form input[type="email"].error{
+  border-color: red;    
+}
+#appoinment-form select.error {
+  border-color: red;
+}
+#appoinment-form textarea.error{
+  border-color: red;    
+}
+#appoinment-form label.error {
+  display: none !important;
+}
+
+
+
+/*________________Html 5 lightbox css_____ */
+#html5-watermark {
+    background: #ff2b58;
+    display: none !important;
+    z-index: 9999999999;
+}
+
+
+
+/*** 
+=============================================
+    Rev Slider Wrapper style
+=============================================
+***/
+.rev_slider_wrapper .slide-content-box .button a{
+    transition: all 0.5s ease 0s !important;
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+
+
+
+/*** 
+=============================================
+    Brand Area style
+=============================================
+***/
+.brand-area .brand .single-item img {
+    display: inline-block;
+    max-width: 100% !important;
+    opacity: 1;
+    padding: 0px 0;
+    position: relative;
+    -webkit-transition: all 300ms ease-in 0s;
+    transition: all 300ms ease-in 0s;
+    width: auto !important;
+}
+
+
+
+.bootstrap-select {
+    width: 100% !important;
+}
+.bootstrap-select > .dropdown-toggle {
+    background: #252525 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #6d6d6d;
+    cursor: pointer;
+    height: 45px;
+    transition: all 500ms ease 0s;
+    z-index: 1;
+    border: 1px solid #2f2f2f;
+}
+.dropdown-menu {
+    background-color: #fff !important;
+    border: 0px solid #888 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: none;
+    font-size: 14px;
+    margin: 1px 0 0 !important;
+    width: 100%;
+    display: block;
+    padding: 8px 12px !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li {}
+.bootstrap-select.btn-group .dropdown-menu li a {
+    padding: 8px 10px !important;
+}
+
+.default-form .bootstrap-select {
+    border: 1px solid #2f2f2f;
+    background: #252525;
+    color: #ababab;
+    padding: 5px 0;
+    font-size: 16px;
+}
+.bootstrap-select>.dropdown-toggle:focus,
+.bootstrap-select>.dropdown-toggle:hover {
+    color: #ababab;
+    background: #444;
+}
+
+
+

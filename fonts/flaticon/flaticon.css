@@ -1,0 +1,67 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/04/2017 12:12
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+    line-height: 20px;
+font-style: normal;
+margin-left: 0px;
+}
+
+.flaticon-cancel:before { content: "\f100"; }
+.flaticon-arrows-2:before { content: "\f101"; }
+.flaticon-interface-1:before { content: "\f102"; }
+.flaticon-docx-file-format:before { content: "\f103"; }
+.flaticon-word-file:before { content: "\f104"; }
+.flaticon-microsoft-word-document-file:before { content: "\f105"; }
+.flaticon-pdf-file-format-symbol:before { content: "\f106"; }
+.flaticon-pdf:before { content: "\f107"; }
+.flaticon-up-arrow:before { content: "\f108"; }
+.flaticon-hot:before { content: "\f109"; }
+.flaticon-broom:before { content: "\f10a"; }
+.flaticon-write:before { content: "\f10b"; }
+.flaticon-construction:before { content: "\f10c"; }
+.flaticon-air-conditioner-1:before { content: "\f10d"; }
+.flaticon-technology-2:before { content: "\f10e"; }
+.flaticon-fire:before { content: "\f10f"; }
+.flaticon-air-conditioner:before { content: "\f110"; }
+.flaticon-iron-service:before { content: "\f111"; }
+.flaticon-car:before { content: "\f112"; }
+.flaticon-location:before { content: "\f113"; }
+.flaticon-hands:before { content: "\f114"; }
+.flaticon-people:before { content: "\f115"; }
+.flaticon-air:before { content: "\f116"; }
+.flaticon-meetup-logo:before { content: "\f117"; }
+.flaticon-technology-1:before { content: "\f118"; }
+.flaticon-q-letter-sign:before { content: "\f119"; }
+.flaticon-clock:before { content: "\f11a"; }
+.flaticon-interface:before { content: "\f11b"; }
+.flaticon-arrows-1:before { content: "\f11c"; }
+.flaticon-minus:before { content: "\f11d"; }
+.flaticon-plus-symbol:before { content: "\f11e"; }
+.flaticon-agenda:before { content: "\f11f"; }
+.flaticon-pin:before { content: "\f120"; }
+.flaticon-technology:before { content: "\f121"; }
+.flaticon-arrows:before { content: "\f122"; }
